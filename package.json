@@ -1,0 +1,48 @@
+{
+  "name": "project-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp --env development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udontoinari/project-gulp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udontoinari/project-gulp/issues"
+  },
+  "homepage": "https://github.com/udontoinari/project-gulp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "autoprefixer": "^9.5.1",
+    "babel-preset-minify": "^0.5.0",
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-progeny": "^0.4.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^5.1.0",
+    "minimist": "^1.2.0"
+  }
+}
